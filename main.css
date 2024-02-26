@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, 'sans-serif';
+}
+
+header {
+    background-color: rgb(66, 66, 207);
+    color: white;
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-style: italic;
+}
+
+.header-buttons h3 {
+    float: left;
+    margin: 0 8px;
+}
+
+.about {
+    width: 62%;
+    margin: 0 auto;
+    background-color: aquamarine;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about img {
+    float: left;
+}
+
+.container {
+
+}
+
+
