@@ -26,10 +26,20 @@ header h1 {
 .about {
     width: 62%;
     margin: 0 auto;
-    background-color: aquamarine;
-    margin-top: 5vh;
     display: flex;
-    flex-direction: column;
+}
+
+.about div {
+    margin-left: 2em;
+}
+
+.about div h2,
+.shoes {
+    border-bottom: 3px solid rgb(66, 66, 207);
+    margin-bottom: 1.5em;
+    padding-bottom: 0.5em;
+    color: rgb(66, 66, 207);
+    font-style: italic;
 }
 
 .about img {
@@ -37,7 +47,30 @@ header h1 {
 }
 
 .container {
+    width: 62%;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
 
+.item-card {
+    border: 1px solid black;
+    width: 251px;
+}
+
+.item-card h2 {
+    margin-top: 2vh;
+}
+
+.item-card p {
+    margin-top: 1vh;
+}
+
+.produtos {
+    display: flex;
+}
+
+.cards-container {
+    display: flex;
 }
 
 
